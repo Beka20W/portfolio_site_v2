@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 200px;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: white;
+        }
+        .yellow {
+            background-color: yellow;
+        }
+        .blue {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в мое портфолио!</h1>
+        <img src="avatar.png" alt="Аватар" width="150">
+        <p>Мой девиз: "Ошибка – это шаг к гениальному решению."</p>
+    </header>
+
+    <section id="about">
+        <h2>О себе</h2>
+        <p><strong>Имя:</strong> Бекжан</p>
+        <p><strong>Город:</strong> Павлодар</p>
+        <p><strong>Университет:</strong> Торайгыров университет</p>
+        <p><strong>Специальность:</strong> Computer Science</p>
+        <p><strong>Интересы:</strong> программирование на Java, создание 3D моделей</p>
+        <p><strong>Хобби:</strong> Игры</p>
+    </section>
+
+    <section id="skills">
+        <h2>Навыки</h2>
+        
+        <h3>Технические навыки</h3>
+        <ul>
+            <li><img src="html-logo.png" alt="HTML Logo" class="skill-logo"> HTML</li>
+            <li><img src="labview-logo.png" alt="LabVIEW Logo" class="skill-logo"> LabVIEW</li>
+            <li><img src="java-logo.png" alt="Java Logo" class="skill-logo"> Java</li>
+        </ul> 
+        
+        <h3>Мягкие навыки</h3>
+        <ul>
+            <li>Командная работа</li>
+            <li>Коммуникация</li>
+            <li>Креативность</li>
+        </ul>
+    </section>
+
+    <section id="achievements">
+        <h2>Достижения</h2>
+
+        <div class="logo-container">
+            <img src="worldskills-logo.png" alt="WorldSkills Logo">
+        </div>
+
+        <p>В 2023 году я принял участие в международном чемпионате WorldSkills по мехатронике и стал победителем, заняв 1 место!</p>
+
+        <div class="mechatronics-description">
+            <h3>Что такое мехатроника?</h3>
+            <p>Мехатроника — это междисциплинарная область, объединяющая механические системы, электронику и программирование.</p>
+        </div>
+    </section>
+
+    <section id="multiplication-table">
+        <h2>Таблица умножения</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td class="yellow">1x1</td>
+                <td class="blue">1x2</td>
+                <td class="yellow">1x3</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td class="blue">2x1</td>
+                <td class="yellow">2x2</td>
+                <td class="blue">2x3</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <h2>Контакты</h2>
+        <p>Gmail: <a href="mailto:bekzhankurgambaev2@gmail.com">bekzhankurgambaev2@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
